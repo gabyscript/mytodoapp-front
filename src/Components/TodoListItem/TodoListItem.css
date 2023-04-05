@@ -1,0 +1,30 @@
+
+#todo-list-item-checked {
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 540px) {
+    
+  #todo-list-item-delete {
+    width: clamp(0.5vw, 1vw, 2vw);
+    height:clamp(2vh, 3.5vh, 6vh);
+  }
+  
+}
+
+
+@media only screen and (min-width: 541px) and (max-width: 991.9px) {
+
+  #todo-list-item-delete {
+    width: clamp(0.5vw, 1vw, 2vw);
+    height:clamp(1.4vh, 2.4vh, 3vh);
+  }
+  
+}
+
+@media only screen and (min-width:992px) {
+  #todo-list-item-delete {
+    width: clamp(0.5vw, 1vw, 2vw);
+    height:clamp(2vh, 3.5vh, 4vh);
+  }
+}
